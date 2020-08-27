@@ -16,6 +16,7 @@ Dotnet package on RC is not being installed properly
 
 2. Copy dotnet package from remote source to RC  
 - You'll need root access to the RC and the RC will need to be able to reach the public internet
+- You can download the dotnet.tar.gz file here: https://github.com/mw-94/D42-Shared/blob/master/dotnet.tar.gz
 
         scp remoteuser@remotehost:dotnet.tar.gz ~/
 
