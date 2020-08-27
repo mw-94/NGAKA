@@ -18,6 +18,7 @@ Dotnet package on RC is not being installed properly
 - You'll need root access to the RC and the RC will need to be able to reach the public internet
 - You can download the dotnet.tar.gz file here: https://github.com/mw-94/D42-Shared/blob/master/dotnet.tar.gz
 - You will need a publicly routable linux VM to download this file to so you can SCP it from the customers RC
+- Once you've got a VM with this file on it, just run the command below to download it to the customers RC
 
         scp remoteuser@remotehost:dotnet.tar.gz ~/
 
