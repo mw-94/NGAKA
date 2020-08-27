@@ -1,5 +1,5 @@
 ## Issue
-Dotnet package on RC is not being installed properly and is missing from /usr/bin/dotnet
+Dotnet package on RC is not being installed properly
 
 ## Steps to resolve
 1. First verify that this is actually the issue
