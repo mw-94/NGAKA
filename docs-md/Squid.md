@@ -1,3 +1,4 @@
+[Home](https://mw-94.github.io/NGAKA/)
 # Squid
 ## Summary
 Squid is a caching and forwarding HTTP web proxy. It has a wide variety of uses, including speeding up a web server by caching repeated requests, caching web, DNS and other computer network lookups for a group of people sharing network resources, and aiding security by filtering traffic.
