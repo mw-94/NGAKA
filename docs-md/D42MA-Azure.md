@@ -45,7 +45,7 @@ Run the following command in the Azure Shell to get the vmId
 
 We’ll need value from vmId.
 
-![Alt text](/media/D42MA-Azure_1.png?raw=true "Optional Title")
+![](/media/D42MA-Azure_1.png?raw=true "Optional Title")
 
 ## 7.) Login to the Device42 console
 
