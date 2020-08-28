@@ -8,9 +8,7 @@ Dotnet package on RC is not being installed properly
 
 ## Steps to resolve
 1. First verify that this is actually the issue
-
-        systemctl status job-manager
-        
+        systemctl status job-manager       
 If it is, you should see something like this:
 
         job-manager.service - D42 Job Manager
