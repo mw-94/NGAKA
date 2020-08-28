@@ -1,2 +1,2 @@
 # Blog
-[this subtext](squid.md)
+[this subtext](Squid.md)
