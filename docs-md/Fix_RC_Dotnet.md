@@ -10,14 +10,14 @@ Dotnet package on RC is not being installed properly
 1. First verify that this is actually the issue
 
         systemctl status job-manager
-/
-        If it is, you should see something like this:
+        
+If it is, you should see something like this:
 
-        job-manager.service - D42 Job Manager
-        Loaded: loaded (/etc/systemd/system/job-manager.service; enabled; vendor preset: disabled)
-        Active: failed (Result: start-limit) since Tue 2020-08-18 10:34:49 EDT; 1 weeks 1 days ago
-        Process: 1878 ExecStart=/usr/bin/dotnet /opt/rc/services/job-manager/JobManager.dll (code=exited, status=203/EXEC)
-        Main PID: 1878 (code=exited, status=203/EXEC)
+                job-manager.service - D42 Job Manager
+                Loaded: loaded (/etc/systemd/system/job-manager.service; enabled; vendor preset: disabled)
+                Active: failed (Result: start-limit) since Tue 2020-08-18 10:34:49 EDT; 1 weeks 1 days ago
+                Process: 1878 ExecStart=/usr/bin/dotnet /opt/rc/services/job-manager/JobManager.dll (code=exited, status=203/EXEC)
+                Main PID: 1878 (code=exited, status=203/EXEC)
 
 2. Copy dotnet package from remote source to RC  
 
