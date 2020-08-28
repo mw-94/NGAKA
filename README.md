@@ -1,3 +1,4 @@
+[Home](https://mw-94.github.io/NGAKA/)
 # Setup / Install Guides
 ## Linux
 [Squid](docs-md/Squid.md)\
