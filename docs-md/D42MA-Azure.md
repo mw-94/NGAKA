@@ -1,3 +1,4 @@
+[Home](https://mw-94.github.io/NGAKA/)
 # How to Deploy Device42 on Azure: Main Appliance
 
 ## 1.) Go to the Azure Marketplace
