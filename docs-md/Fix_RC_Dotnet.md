@@ -10,8 +10,8 @@ Dotnet package on RC is not being installed properly
 1. First verify that this is actually the issue
 
         systemctl status job-manager
-&nbsp;    
-: If it is, you should see something like this:
+/
+        If it is, you should see something like this:
 
         job-manager.service - D42 Job Manager
         Loaded: loaded (/etc/systemd/system/job-manager.service; enabled; vendor preset: disabled)
