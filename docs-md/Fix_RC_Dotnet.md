@@ -28,13 +28,13 @@ Dotnet package on RC is not being installed properly
 
         mkdir temp && tar -xzf dotnet.tar.gz -C temp && cd temp
 
-4. Install the dotnet packages
-- Make sure you are in that temp folder
+4. Install the dotnet packages  
+- Make sure you are in that temp folder  
 
         rpm -Uvh libicu-50.1.2-17.el7.x86_64.rpm dotnet-host-2.1.6-x64.rpm dotnet-hostfxr-2.1.6-x64.rpm dotnet-runtime-2.1.6-x64.rpm aspnetcore-runtime-2.1.6-x64.rpm dotnet-runtime-deps-2.1.6-rhel.7-x64.rpm
 
-5. Restart job manager and verify fix is working
-- dotnet should execute without any errors if it is working as expected
+5. Restart job manager and verify fix is working  
+- dotnet should execute without any errors if it is working as expected  
 
         systemctl start job-manager
         journalctl -u job-manager
