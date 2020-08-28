@@ -11,7 +11,7 @@ Dotnet package on RC is not being installed properly
 
         systemctl status job-manager
         
-- If it is, you should see something like this:
+If it is, you should see something like this:
 
         job-manager.service - D42 Job Manager
         Loaded: loaded (/etc/systemd/system/job-manager.service; enabled; vendor preset: disabled)
@@ -24,7 +24,7 @@ Dotnet package on RC is not being installed properly
         scp remoteuser@remotehost:dotnet.tar.gz ~/
 
 3. Unpack the tar.gz file  
-- Create a temp folder and unpack the tar.gz file to that folder
+Create a temp folder and unpack the tar.gz file to that folder
 
         mkdir temp && tar -xzf dotnet.tar.gz -C temp && cd temp
 
