@@ -11,7 +11,7 @@ Dotnet package on RC is not being installed properly
 
         systemctl status job-manager
         
-If it is, you should see something like this:
+        If it is, you should see something like this:
 
                 job-manager.service - D42 Job Manager
                 Loaded: loaded (/etc/systemd/system/job-manager.service; enabled; vendor preset: disabled)
