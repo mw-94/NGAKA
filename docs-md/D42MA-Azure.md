@@ -15,6 +15,7 @@ You will need to specify the following:
 - Administrator account – choose Authentication Type as Password. Note: This field has no bearing on Device42 deployment.
 - Networking
 - Disks
+
 ## 3.) Click on Review & Create.
 
 After validation, deployment should start.
@@ -25,6 +26,7 @@ The Azure deployment creates the following resources by default:
 - Microsoft.Network/publicIpAddresses
 - Microsoft.Network/networkSecurityGroups
 - Microsoft.Compute/virtualMachines
+
 ## 4.) Configure the network security group
 
 Allow the following inbound ports:
@@ -32,6 +34,7 @@ Allow the following inbound ports:
 - 404 – ssh access
 - 443 – Web GUI and API access
 - 4343 – appliance manager SSL port
+
 ## 5.) Enable the VM serial console
 
 ## 6.) Get your Device42 Azure VM’s instance ID
