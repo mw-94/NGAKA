@@ -39,8 +39,7 @@ Run the following command in the Azure Shell to get the vmId
 
     az vm show –name <VM Name> –resource-group <resource group name>
 
-
-![1](media/D42MA-Azure_1.png?raw=true "We’ll need value from vmId.")
+![Alt text](/media/D42MA-Azure_1.png?raw=true "Optional Title")
 
 ## 7.) Login to the Device42 console
 
