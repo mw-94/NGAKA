@@ -27,7 +27,7 @@ Replace $DISTRO with the release name depending on your Debian/Ubuntu distributi
 ### 5. Import config
 You can just open your existing profile and copy it into a new file, or copy the profile over directly.
 
-            vi vpn_profile.ovpn
+        vi vpn_profile.ovpn
 
 ### 6. Start the VPN connection
 
