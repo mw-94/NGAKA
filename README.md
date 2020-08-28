@@ -6,9 +6,9 @@ Squid is a caching and forwarding HTTP web proxy. It has a wide variety of uses,
 [OpenVPN3](docs-md/OpenVPN3)\
 OpenVPN 3 is a C++ class library that implements the functionality of an OpenVPN client, and is protocol-compatible with the OpenVPN 2.x branch.
 
-# D42 - Support
-## Remote Collector
-
-### Issue: Dotnet packages on RC are not being installed properly through auto-upgrade process
+# Knowledge Articles
+## D42
+### RC
+#### Issue: Dotnet packages on RC are not being installed properly through auto-upgrade process
 - Resolution: Manually download the required dotnet rpm files and install them\
 [Click here for fix](docs-md/Fix_RC_Dotnet)
