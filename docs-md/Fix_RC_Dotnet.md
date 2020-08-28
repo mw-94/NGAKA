@@ -1,6 +1,5 @@
-## Issue
-Dotnet package on RC is not being installed properly
-
+[Home](https://mw-94.github.io/NGAKA/)
+# Issue: Dotnet package on RC is not being installed properly
 ## Requirements to fix
 - You'll need root access to the RC and the RC will either need to be able to reach the public internet or you will need another host to scp from
 - You can download the dotnet.tar.gz file [here](https://github.com/mw-94/D42-Shared/blob/master/dotnet.tar.gz)
