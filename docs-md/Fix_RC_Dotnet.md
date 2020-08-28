@@ -7,7 +7,8 @@ Dotnet package on RC is not being installed properly
 - You will need a publicly routable linux VM to download this file to so you can SCP it from the customers RC (or another host in their environment that you can upload/download the file to and SCP from that.
 
 ## Steps to resolve
-1. First verify that this is actually the issue\
+1. First verify that this is actually the issue
+
         systemctl status job-manager       
 If it is, you should see something like this:
 
