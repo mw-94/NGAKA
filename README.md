@@ -7,6 +7,9 @@ Squid is a caching and forwarding HTTP web proxy. It has a wide variety of uses,
 [OpenVPN3](docs-md/OpenVPN3)\
 OpenVPN 3 is a C++ class library that implements the functionality of an OpenVPN client, and is protocol-compatible with the OpenVPN 2.x branch.
 
+## D42
+[D42 MA on Azure](docs-md/D42MA-Azure.md)\
+Short guide on deploying the MA on Azure marketplace.
 # Knowledge Articles
 ## D42
 ### RC
