@@ -41,6 +41,8 @@ Run the following command in the Azure Shell to get the vmId
 
 We’ll need value from vmId.
 
+[media/D42MA-Azure_1.png]
+
 ## 7.) Login to the Device42 console
 
 Go to the serial console of your Device42 Azure VM or use ssh port 404 to login with username device42 and the password as the vmId value from previous step.  
